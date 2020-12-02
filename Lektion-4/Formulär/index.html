@@ -27,9 +27,72 @@
         Dom här valen brukar man hantera med Javascript istället för då får vi en bättre kontroll
      -->
      <div class="container mt-5">
-    <form>
+    <form id="regForm" action="thanks.html" method="GET">
         <label for="firstName">First name:</label>
         <input type="text" id="firstName" name="firstName">
+        
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="1" max="5">
+        </div>
+        <div>
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date">
+        </div>
+        <!-- Select -->
+        <div>
+            <label for="role">Role:</label>
+            <select name="role" id="role">
+                <option value="" disabled selected></option>
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+                <option value="guest">Guest</option>
+            </select>
+        </div>
+
+        <!-- Radiobuttons -->
+        <p>Gender:</p>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+        </div>
+
+        <!-- Checkboxes -->
+        <div>
+            <div class="terms">
+                    <input type="checkbox" name="terms" id="terms" required>
+                    <label for="terms">I have read and agree to the terms and conditions</label>
+            </div>
+            <div class="terms">
+                <input type="checkbox" name="news" id="news" checked>
+                <label for="news">I would like to subscribe to the newsletter</label>
+        </div>
+        </div>
+
+        <div>
+            <label for="message">Message: </label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter message..."></textarea>
+        </div>
+
+        <input type="submit" value="Submit">
+
 
 
     </form>
