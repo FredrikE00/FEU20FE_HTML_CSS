@@ -1,0 +1,20 @@
+                        För inlämningsuppgift 1
+
+Top menu - i clock "Working hours" Vänster. Höger, Ikon facebook, twitter,G+, instagram
+
+
+
+Main menu - Vänster Logo. Höger "Home" "About us" "Services" "Contact"
+
+Showcase - 
+img, grå bakgrund. h1, p och button, button ändrar färg på Hover.
+
+About us - 
+H2 (unerline?) text under img Höger
+
+
+Our Services - h2 (unederline?) Hover, "kommer fram" byter färg", kort.
+
+Appointment - Blå bakgrund text och button ändrar färg på Hover, Centrerad i höjd 
+
+Footer - Lite mörkare blå med copyright 2020DentialClinic
