@@ -28,6 +28,8 @@ a:hover {
 .bg-gray {
     background: #DEDEDE;
 }
+
+/* Button styling */
 .btn{
     display: inline-block;
     /* font-weight: 400; */
@@ -48,7 +50,7 @@ a:hover {
 }
 
 
-
+/* Navbar styleing */
 .navbar-top {
     border-bottom: 1px solid #707070;
     padding: 0.5rem;
@@ -66,6 +68,8 @@ a:hover {
 .navbar-top .container .socialmedia a{
     margin: 0 0.5rem;
 }
+/* Navbar-Top End */
+
 .navbar .container {
     align-items: center;    
 } 
@@ -91,6 +95,8 @@ a:hover {
     background-color: transparent;
     border: 1px solid transparent;
 }
+
+/* Showcase Styleing */
 #showcase .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -103,7 +109,6 @@ a:hover {
 #showcase .container .content-box {
     align-self: center;
 }
-
 #showcase .content-box h1 {
     color: #363636;
     font-family: 'Roboto Slab', serif;
@@ -111,15 +116,48 @@ a:hover {
     font-weight: 400;
     line-height: 1.1;
 }
-#swohcase .content-box p {
+#showcase .content-box p {
     font-size: 0.9rem;
     margin: 2.5rem 0;
 }
 
 
 
+/* Appointment styling */
+.appointment{
+    background-color: #2baaec;
+    opacity: 80%;
+    display: flex;
+    justify-content: space-around ;
+    padding:45px;
+    
+}
+.appointment .appointment-text{
+    color: #fff;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.btn-appment {
+    background-color: #fff;
+    color: #2baaec;
+    font-weight: bold;
+    font-size: 1rem;
+}
 
 
+/* Footer styling */
+.footer {
+    background-color: #2baaec;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+}
+.footer-text {
+    color: #F3FBFF;
+    opacity: 60%;
+    text-align: center;
+    
+}
 
 
 @media(min-width: 768px) {
