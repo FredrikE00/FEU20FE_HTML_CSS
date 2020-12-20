@@ -45,6 +45,9 @@ a:hover {
     background-color: #25e6c8;
     font-weight: bold;
 }
+.btn-greenish:hover {
+    background-color: #2BAAEC;
+}
 .collapse:not(.show) {
     display: none;
 }
@@ -121,15 +124,52 @@ a:hover {
     margin: 2.5rem 0;
 }
 
-
-
+/* About us styleing */
+#aboutus .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+}
+#aboutus .about-box {
+    align-self: center;
+}
+#aboutus h1 {
+    line-height: 2rem;
+    font-family: 'Roboto Slab', serif;
+    color: #363636;
+}
+#aboutus .clinic-blue {
+    color: #2baaec;
+}
+#aboutus .underline {
+    background-color: #25e6c8;
+    margin: 1rem 0 1rem 0;
+    height: 0.2rem;
+}
+#aboutus p {
+    margin: 2.5rem 0 2.5rem 0;
+}
+#aboutus .about-stats {
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+}
+#aboutus .about-stats .clinic-blue {
+    font-size: 2rem;
+}
+#aboutus .about-stats p {
+    margin-right: 2rem;
+}
+#aboutus img {
+    margin-top: 4rem;
+}
 /* Appointment styling */
 .appointment{
     background-color: #2baaec;
     opacity: 80%;
     display: flex;
     justify-content: space-around ;
-    padding:45px;
+    padding:50px;
+    align-items: center;
     
 }
 .appointment .appointment-text{
@@ -142,8 +182,13 @@ a:hover {
     color: #2baaec;
     font-weight: bold;
     font-size: 1rem;
+    padding: 1rem 3rem 1rem 3rem;
 }
-
+.btn-appment:hover  {
+border: 1px solid #fff;
+background-color: #2baaec;
+color: #fff;
+}
 
 /* Footer styling */
 .footer {
