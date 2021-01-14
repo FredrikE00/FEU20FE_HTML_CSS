@@ -1,0 +1,38 @@
+.navbar .container .collapse .active{
+    color: orange ;
+    position: relative;
+
+}
+
+.streck {
+    height: 3px;
+    background: orange;
+    position: absolute;
+    bottom: 0.2rem;
+    left: 0.5rem;
+    right: 1.3rem;
+}
+
+.element {
+    background: orange;
+    height: 20px;
+    width: 100px;
+    margin: 3rem auto;
+    position: relative;
+}
+
+.element::before{
+    content:'Hej' ;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -3rem;
+
+}
+.element::after{
+    content:'Då' ;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: -2.5rem;
+}
